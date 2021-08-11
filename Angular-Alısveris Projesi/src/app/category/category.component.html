@@ -1,0 +1,41 @@
+<h3>{{ title }}</h3>
+<div class="row">
+  <div class="list-group" id="list-group">
+    <a class="list-group-item active" routerLink="products">Tüm Ürünler</a>
+  </div>
+
+  <!-- <div class="list-group">
+    <a
+      class="list-group-item list-group-item-action list-group-item-danger"
+      routerLink="/products"
+    >
+      Mağaza
+    </a>
+  </div> -->
+
+  <div *ngFor="let category of categories" class="list-group">
+    <a
+      class="list-group-item list-group-item-action list-group-item-secondary"
+      routerLink="products/category/{{ category.id }}"
+    >
+      {{ category.name }}
+    </a>
+  </div>
+
+  <div class="list-group">
+    <a
+      class="list-group-item list-group-item-action list-group-item-primary"
+      routerLink="/product-add-1"
+    >
+      Ürün Ekle / Klasik Form
+    </a>
+  </div>
+  <div class="list-group">
+    <a
+      class="list-group-item list-group-item-action list-group-item-primary"
+      routerLink="/product-add-2"
+    >
+      Ürün Ekle / Ractive Forms
+    </a>
+  </div>
+</div>

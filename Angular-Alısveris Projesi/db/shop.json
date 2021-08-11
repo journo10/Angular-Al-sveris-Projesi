@@ -1,0 +1,534 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bilgisayar",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/photo-1511385348-a52b4a160dc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=782&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Tablet Pc",
+      "price": 1500,
+      "categoryId": 2,
+      "description": "Samsung Galaxy X",
+      "imageUrl": "https://images.unsplash.com/photo-1521159311222-fcd72db9bd8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Mouse",
+      "price": 25,
+      "categoryId": 3,
+      "description": "A4 Tech",
+      "imageUrl": "https://images.unsplash.com/photo-1586816879360-004f5b0c51e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Bilgisayar",
+      "price": 2500,
+      "categoryId": 1,
+      "description": "Asus ZenBook",
+      "imageUrl": "https://images.unsplash.com/photo-1544006659-f0b21884ce1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Tablet Pc",
+      "price": 1500,
+      "categoryId": 2,
+      "description": "Samsung Galaxy X",
+      "imageUrl": "https://images.unsplash.com/photo-1565221287653-9a2713dbe4ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Mouse",
+      "price": 50,
+      "categoryId": 3,
+      "description": "A4 Tech",
+      "imageUrl": "https://images.unsplash.com/photo-1619334084350-b093f0a9b40e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Tablet Pc",
+      "price": 1000,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 7",
+      "imageUrl": "https://images.unsplash.com/photo-1471279136892-55af5dc6895f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 8,
+      "name": "Mouse",
+      "price": 40,
+      "categoryId": 3,
+      "description": "Asus A3",
+      "imageUrl": "https://images.unsplash.com/photo-1598978554684-31ee8d544884?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fG1vdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 9,
+      "name": "Tablet Pc",
+      "price": 950,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 9",
+      "imageUrl": "https://images.unsplash.com/photo-1607292803026-3b9d9b3d0fe7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjB8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 10,
+      "name": "Mouse",
+      "price": 30,
+      "categoryId": 3,
+      "description": "Asus B3",
+      "imageUrl": "https://images.unsplash.com/photo-1554576575-a4e7b6e8409d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAzfHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 11,
+      "name": "Tablet Pc",
+      "price": 750,
+      "categoryId": 2,
+      "description": "Samsung Galaxy XZ",
+      "imageUrl": "https://images.unsplash.com/photo-1533310266094-8898a03807dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 12,
+      "name": "Bilgisayar",
+      "price": 3000,
+      "categoryId": 1,
+      "description": "Casper",
+      "imageUrl": "https://images.unsplash.com/photo-1588702547923-7093a6c3ba33?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+      "id": 13,
+      "name": "Tablet Pc",
+      "price": 1100,
+      "categoryId": 2,
+      "description": "Samsung Galaxy 11",
+      "imageUrl": "https://images.unsplash.com/photo-1599009433234-8d350e1e0942?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 14,
+      "name": "Mouse",
+      "price": 35,
+      "categoryId": 3,
+      "description": "Asus C1",
+      "imageUrl": "https://images.unsplash.com/photo-1613091252604-dd0746e2f358?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA2fHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 15,
+      "name": "Bilgisayar",
+      "price": 2750,
+      "categoryId": 1,
+      "description": "Lenova",
+      "imageUrl": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 16,
+      "name": "Tablet Pc",
+      "price": 1125,
+      "categoryId": 2,
+      "description": "Samsung Galaxy XYZ",
+      "imageUrl": "https://images.unsplash.com/photo-1502404679462-d669245fc482?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+    },
+    {
+      "id": 17,
+      "name": "Mouse",
+      "price": 55,
+      "categoryId": 3,
+      "description": "Asus P4",
+      "imageUrl": "https://images.unsplash.com/photo-1585336261176-3e8d838e86e3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI3fHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 18,
+      "name": "Tablet Pc",
+      "price": 825,
+      "categoryId": 2,
+      "description": "Samsung Galaxy Z",
+      "imageUrl": "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 19,
+      "name": "Bilgisayar",
+      "price": 3250,
+      "categoryId": 1,
+      "description": "Asus",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 20,
+      "name": "Tablet Pc",
+      "price": 600,
+      "categoryId": 2,
+      "description": "Samsung Galaxy Y",
+      "imageUrl": "https://images.unsplash.com/photo-1620144376627-00318418fefc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHRhYmxldHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 21,
+      "name": "Mouse",
+      "price": 60,
+      "categoryId": 3,
+      "description": "Asus R5",
+      "imageUrl": "https://images.unsplash.com/photo-1619334084724-eefc4ee92e35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI5fHxtb3VzZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 22,
+      "name": "Bilgisayar",
+      "price": 655,
+      "categoryId": 1,
+      "description": "Acer",
+      "imageUrl": "https://images.unsplash.com/photo-1485988412941-77a35537dae4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 23,
+      "name": "Bilgisayar",
+      "price": 585,
+      "categoryId": 1,
+      "description": "Dell",
+      "imageUrl": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 24,
+      "name": "Bilgisayar",
+      "price": 965,
+      "categoryId": 1,
+      "description": "Lenova",
+      "imageUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29tcHV0ZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 25,
+      "name": "Bilgisayar",
+      "price": 925,
+      "categoryId": 1,
+      "description": "HP",
+      "imageUrl": "https://images.unsplash.com/photo-1612425626229-632fab8bfc02?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvbXB1dGVyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 26,
+      "name": "Mouse",
+      "price": 135,
+      "categoryId": 3,
+      "description": "Logitech",
+      "imageUrl": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW91c2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 27,
+      "name": "Mouse",
+      "price": 85,
+      "categoryId": 3,
+      "description": "Razer",
+      "imageUrl": "https://images.unsplash.com/photo-1613141411244-0e4ac259d217?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 28,
+      "name": "Telefon",
+      "price": 2200,
+      "categoryId": 4,
+      "description": "Samsung GS",
+      "imageUrl": "https://images.unsplash.com/photo-1585060282215-39a72f82385c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 29,
+      "name": "Telefon",
+      "price": 2400,
+      "categoryId": 4,
+      "description": "LG",
+      "imageUrl": "https://images.unsplash.com/photo-1585060544812-6b45742d762f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 30,
+      "name": "Telefon",
+      "price": 2500,
+      "categoryId": 4,
+      "description": "Vestel",
+      "imageUrl": "https://images.unsplash.com/photo-1610548822783-33fb5cb0e3a8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 31,
+      "name": "Telefon",
+      "price": 1950,
+      "categoryId": 4,
+      "description": "Samsung BJK",
+      "imageUrl": "https://images.unsplash.com/photo-1544866092-1935c5ef2a8f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 32,
+      "name": "Telefon",
+      "price": 1750,
+      "categoryId": 4,
+      "description": "Huawei",
+      "imageUrl": "https://images.unsplash.com/photo-1560617544-b4f287789e24?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y2VsbCUyMHBob25lfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 33,
+      "name": "Telefon",
+      "price": 3200,
+      "categoryId": 4,
+      "description": "Samsung FB",
+      "imageUrl": "https://images.unsplash.com/photo-1505415055475-143e29dd0b6a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 34,
+      "name": "Telefon",
+      "price": 3000,
+      "categoryId": 4,
+      "description": "Huawei GS",
+      "imageUrl": "https://images.unsplash.com/photo-1587310278851-0876af994cda?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 35,
+      "name": "Telefon",
+      "price": 2800,
+      "categoryId": 4,
+      "description": "Vestel FB",
+      "imageUrl": "https://images.unsplash.com/photo-1585399000684-d2f72660f092?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 36,
+      "name": "Telefon",
+      "price": 2900,
+      "categoryId": 4,
+      "description": "LG 5",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144760-1946bb52e9a4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGNlbGwlMjBwaG9uZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 37,
+      "name": "Fotoğraf Makinesi",
+      "price": 1600,
+      "categoryId": 5,
+      "description": "Canon",
+      "imageUrl": "https://images.unsplash.com/photo-1613631883052-454579eb648f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 38,
+      "name": "Fotoğraf Makinesi",
+      "price": 1650,
+      "categoryId": 5,
+      "description": "Sony",
+      "imageUrl": "https://images.unsplash.com/photo-1519638831568-d9897f54ed69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FtZXJhc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 39,
+      "name": "Fotoğraf Makinesi",
+      "price": 1850,
+      "categoryId": 5,
+      "description": "Fujifilm",
+      "imageUrl": "https://images.unsplash.com/photo-1600800844871-402aa9ffe956?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtZXJhc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 40,
+      "name": "Fotoğraf Makinesi",
+      "price": 1700,
+      "categoryId": 5,
+      "description": "Nikon",
+      "imageUrl": "https://images.unsplash.com/photo-1542124292-60272943a355?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 41,
+      "name": "Fotoğraf Makinesi",
+      "price": 2000,
+      "categoryId": 5,
+      "description": "Canon",
+      "imageUrl": "https://images.unsplash.com/photo-1610363085191-4f785772e2f6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 42,
+      "name": "Fotoğraf Makinesi",
+      "price": 2100,
+      "categoryId": 5,
+      "description": "Sony X",
+      "imageUrl": "https://images.unsplash.com/photo-1516946870798-f970a32afc8c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 43,
+      "name": "Fotoğraf Makinesi",
+      "price": 2050,
+      "categoryId": 5,
+      "description": "Nikon Z",
+      "imageUrl": "https://images.unsplash.com/photo-1494587859747-ecd6dfbd6abe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 44,
+      "name": "Fotoğraf Makinesi",
+      "price": 2075,
+      "categoryId": 5,
+      "description": "Fujifilm Y",
+      "imageUrl": "https://images.unsplash.com/photo-1527935168229-c1cc0bdfa662?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 45,
+      "name": "Fotoğraf Makinesi",
+      "price": 2150,
+      "categoryId": 5,
+      "description": "Canon Y",
+      "imageUrl": "https://images.unsplash.com/photo-1560367918-bed51f9dff43?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGNhbWVyYXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 46,
+      "name": "Tripot",
+      "price": 65,
+      "categoryId": 6,
+      "description": "Benro",
+      "imageUrl": "https://images.unsplash.com/photo-1587204760600-77d8d18d143e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 47,
+      "name": "Tripot",
+      "price": 125,
+      "categoryId": 6,
+      "description": "Slik",
+      "imageUrl": "https://images.unsplash.com/photo-1573385233252-2293057a4e3c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 48,
+      "name": "Tripot",
+      "price": 145,
+      "categoryId": 6,
+      "description": "Digipod",
+      "imageUrl": "https://images.unsplash.com/photo-1540945573388-fb1aa7ecb444?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 49,
+      "name": "Tripot",
+      "price": 95,
+      "categoryId": 6,
+      "description": "Gitzo",
+      "imageUrl": "https://images.unsplash.com/photo-1583830379760-cb684a1d49cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 50,
+      "name": "Tripot",
+      "price": 110,
+      "categoryId": 6,
+      "description": "Fancier",
+      "imageUrl": "https://images.unsplash.com/photo-1583547990766-92e483caa5ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 51,
+      "name": "Tripot",
+      "price": 75,
+      "categoryId": 6,
+      "description": "Manfrotto",
+      "imageUrl": "https://images.unsplash.com/photo-1520317383650-9152696da971?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 52,
+      "name": "Tripot",
+      "price": 80,
+      "categoryId": 6,
+      "description": "Benro Y",
+      "imageUrl": "https://images.unsplash.com/photo-1616754708941-716095bd0a71?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTB8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 53,
+      "name": "Tripot",
+      "price": 140,
+      "categoryId": 6,
+      "description": "Gitzo K",
+      "imageUrl": "https://images.unsplash.com/photo-1602250353288-313831f07ca8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "id": 54,
+      "name": "Tripot",
+      "price": 130,
+      "categoryId": 6,
+      "description": "Fancier Z",
+      "imageUrl": "https://images.unsplash.com/photo-1582897518648-0bf2cacb931a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTF8fHRyaXBvZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "BİLGİSAYAR",
+      "price": "2000",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_81104023/mobile_786_587_png/HP-24-DF0093NT-Intel-Core-i3--4GB--256GB-SSD--23.8%22-FHD-Ekran-All-in-One-Bilgisayar-Beyaz-308T6EA",
+      "description": "GÜZEL",
+      "categoryId": "1",
+      "id": 55
+    },
+    {
+      "name": "FOTOĞRAF MAKİNESİ",
+      "price": "1670",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "description": "Canon",
+      "categoryId": "5",
+      "id": 56
+    },
+    {
+      "name": "TRipot",
+      "price": "350",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "description": "Sentor",
+      "categoryId": "6",
+      "id": 57
+    },
+    {
+      "name": "TABLET",
+      "price": "1050",
+      "imageUrl": "data:image/jpeg;base64,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",
+      "description": "Lenova Tab X",
+      "categoryId": "2",
+      "id": 58
+    },
+    {
+      "name": "TELEFON",
+      "price": "2750",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3fqtrymUiS8ThXq6V_IkY5U5Xu68rJl47g&usqp=CAU",
+      "description": "SAMSUNG JX",
+      "categoryId": "4",
+      "id": 59
+    },
+    {
+      "name": "MOUSE",
+      "price": "24",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHX-2jICNpb-60ait8WcIExTOCGdFoJAY-w&usqp=CAU",
+      "description": "Z K J10",
+      "categoryId": "3",
+      "id": 60
+    },
+    {
+      "name": "TABLET",
+      "price": "850",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRma5_OVSWHdOkMVH90WQf2Sdkcppfby4a0A&usqp=CAU",
+      "description": "SAMSUNG T",
+      "categoryId": "2",
+      "id": 61
+    },
+    {
+      "name": "TABLET",
+      "price": "750",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpX74tmef7hNMUG2OwMsY6aqVpH95fGstSg&usqp=CAU",
+      "description": "SAMSUNG ZZ",
+      "categoryId": "2",
+      "id": 62
+    },
+    {
+      "name": "FOTOĞRAF MAKİNESİ",
+      "price": "900",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0qSfuHIJmkHT9ZzuIVErGgKfZalhgMiVyFQ&usqp=CAU",
+      "description": "CANON",
+      "categoryId": "5",
+      "id": 63
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 2,
+      "name": "Tablet"
+    },
+    {
+      "id": 3,
+      "name": "Mouse"
+    },
+    {
+      "id": 4,
+      "name": "Telefon"
+    },
+    {
+      "id": 5,
+      "name": "Fotoğraf Makinesi"
+    },
+    {
+      "id": 6,
+      "name": "Tripot"
+    }
+  ]
+}

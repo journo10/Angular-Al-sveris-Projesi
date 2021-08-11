@@ -1,0 +1,83 @@
+<h3>Yeni Ürün Ekle</h3>
+<form #FormIsmi="ngForm" (ngSubmit)= "ekle(FormIsmi)">
+  <div class="form-group">
+    <input
+      type="text"
+      placeholder="Ürün adı"
+      #name="ngModel"
+      [(ngModel)]="model.name"
+      class="form-control"
+      name="name"
+      id="name"
+      required
+    />
+    <div *ngIf="name.invalid && name.dirty" class="alert alert-primary">
+      Ürün ismi giriniz
+    </div>
+    <input
+      type="text"
+      placeholder="Ürün fiyatı"
+      #price="ngModel"
+      [(ngModel)]="model.price"
+      class="form-control"
+      name=" price"
+      id=" price"
+      required
+    />
+    <div *ngIf="price.invalid && price.dirty" class="alert alert-primary">
+      Ürün fiyatı giriniz
+    </div>
+
+    <input
+      type="text"
+      placeholder="Ürün resmi"
+      #imageUrl="ngModel"
+      [(ngModel)]="model.imageUrl"
+      class="form-control"
+      name="imageUrl"
+      id="imageUrl"
+      required
+    />
+    <div *ngIf="imageUrl.invalid && imageUrl.dirty" class="alert alert-primary">
+      Ürün resmi giriniz
+    </div>
+    <input
+      type="text"
+      placeholder="Açıklama"
+      #description="ngModel"
+      [(ngModel)]="model.description"
+      class="form-control"
+      name="description"
+      id="description"
+      required
+    />
+    <div
+      *ngIf="description.invalid && description.dirty"
+      class="alert alert-primary"
+    >
+      Açıklama giriniz
+    </div>
+    <div>
+      <select
+        class="form-select form-select-sm"
+        #categoryId="ngModel"
+        [(ngModel)]="model.categoryId"
+        required
+        id="categoryId"
+        name="categoryId"
+      >
+        <option *ngFor="let category of categories" [value]="category.id">
+          {{ category.name }}
+        </option>
+      </select>
+
+      <div
+        *ngIf="categoryId.invalid && categoryId.touched"
+        class="alert alert-primary"
+      >
+        Kategori giriniz
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary mt-2" [disabled]="FormIsmi.invalid">Ürün Ekle</button>
+</form>

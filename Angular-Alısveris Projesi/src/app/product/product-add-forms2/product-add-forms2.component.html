@@ -1,0 +1,109 @@
+<h3>Yeni Ürün Ekle</h3>
+<form [formGroup]="FormIsmi" (ngSubmit)="ekle()">
+  <div class="form-group">
+    <input
+      class="form-control"
+      type="text"
+      id="name"
+      name="name"
+      formControlName="name"
+      placeholder="Ürün adı"
+    />
+    <div
+      class="alert alert-primary"
+      *ngIf="
+        FormIsmi.get('name').hasError('required') && FormIsmi.get('name').dirty
+      "
+    >
+      Ürün adı giriniz
+    </div>
+  
+  <div >
+    <input
+      class="form-control"
+      type="text"
+      id="price"
+      name="price"
+      formControlName="price"
+      placeholder="Ürün fiyatı"
+    />
+    <div
+      class="alert alert-primary"
+      *ngIf="
+        FormIsmi.get('price').hasError('required') &&
+        FormIsmi.get('price').dirty
+      "
+    >
+      Ürün fiyatı giriniz
+    </div>
+  </div>
+  <div>
+    <input
+      class="form-control"
+      type="text"
+      id="imegeUrl"
+      name="imageUrl"
+      formControlName="imageUrl"
+      placeholder="Ürün resmi"
+    />
+    <div
+      class="alert alert-primary"
+      *ngIf="
+        FormIsmi.get('imageUrl').hasError('required') &&
+        FormIsmi.get('imageUrl').dirty
+      "
+    >
+      Ürün resmi giriniz
+    </div>
+  </div>
+  <div >
+    <input
+      class="form-control"
+      type="text"
+      id="description"
+      name="description"
+      formControlName="description"
+      placeholder="Açıklama"
+    />
+    <div
+      class="alert alert-primary"
+      *ngIf="
+        FormIsmi.get('description').hasError('required') &&
+        FormIsmi.get('description').dirty
+      "
+    >
+      Açıklama giriniz
+    </div>
+  </div>
+  <div >
+    <select
+      class="form-select form-select-sm"
+      type="text"
+      id="categoryId"
+      name="categoryId"
+      formControlName="categoryId"
+    >
+      <option *ngFor="let category of categories" [value]="category.id">
+        {{ category.name }}
+      </option>
+    </select>
+
+    <div
+      class="alert alert-primary"
+      *ngIf="
+        FormIsmi.get('categoryId').hasError('required') &&
+        FormIsmi.get('categoryId').touched
+      "
+    >
+      Kategori giriniz
+    </div>
+  </div>
+  <button
+    type="submit"
+    class="btn btn-primary mt-2"
+    [disabled]="FormIsmi.invalid"
+  >
+    Ürün Ekle
+  </button>
+</div>
+</form>

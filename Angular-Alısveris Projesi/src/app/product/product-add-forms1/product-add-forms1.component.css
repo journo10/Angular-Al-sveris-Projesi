@@ -1,0 +1,16 @@
+.form-group{
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.form-control{
+    margin-top: 7px;
+}
+.form-select{
+    margin-top: 7px;
+}
+h3{
+    margin-top: 20px;
+    text-align: center;
+    color:red;
+}
+ 
